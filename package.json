@@ -5,7 +5,9 @@
   "main": "index.html",
   "scripts": {
     "start": "python -m http.server 8000",
-    "dev": "python -m http.server 8000"
+    "dev": "python -m http.server 8000",
+    "build": "echo 'No build step required for static site'",
+    "vercel-build": "echo 'No build step required for static site'"
   },
   "keywords": ["birthday", "website", "gallery", "celebration"],
   "author": "Your Name",
