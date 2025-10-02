@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Birthday! 🎉</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Header Section -->
+        <header class="header">
+            <div class="celebration-animation">
+                <div class="confetti"></div>
+                <div class="confetti"></div>
+                <div class="confetti"></div>
+                <div class="confetti"></div>
+                <div class="confetti"></div>
+            </div>
+            <h1 class="title">Happy Birthday My Love ❤️!</h1>
+            <p class="subtitle">Celebrating another amazing year! 🎂</p>
+            <section>
+                <!-- Heart Animation Button -->
+                <div class="heart-section">
+                    <button class="heart-btn" style="margin-top: 20px;" onclick="createHeartRain()">
+                        <i class="fas fa-heart"></i>
+                        Click Here 💕
+                    </button>
+                </div>
+            </section>
+        </header>
+
+        <!-- Photo Gallery Section -->
+        <section class="photo-gallery">
+            <h2 class="section-title">Memories Together</h2>
+            <div class="gallery-grid">
+                <div class="photo-item" data-photo="1">
+                    <div class="photo-placeholder">
+                        <i class="fas fa-camera"></i>
+                        <p>Loading...</p>
+                    </div>
+                </div>
+                <div class="photo-item" data-photo="2">
+                    <div class="photo-placeholder">
+                        <i class="fas fa-camera"></i>
+                        <p>Loading...</p>
+                    </div>
+                </div>
+                <div class="photo-item" data-photo="3">
+                    <div class="photo-placeholder">
+                        <i class="fas fa-camera"></i>
+                        <p>Loading...</p>
+                    </div>
+                </div>
+                <div class="photo-item" data-photo="4">
+                    <div class="photo-placeholder">
+                        <i class="fas fa-camera"></i>
+                        <p>Loading...</p>
+                    </div>
+                </div>
+                <div class="photo-item" data-photo="5">
+                    <div class="photo-placeholder">
+                        <i class="fas fa-camera"></i>
+                        <p>Loading...</p>
+                    </div>
+                </div>
+                <div class="photo-item" data-photo="6">
+                    <div class="photo-placeholder">
+                        <i class="fas fa-camera"></i>
+                        <p>Loading...</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Messages Section -->
+        <section class="messages">
+            <h2 class="section-title">Birthday Wishes</h2>
+            <div class="message-cards">
+                <div class="message-card">
+                    <div class="message-icon">
+                        <i class="fas fa-heart"></i>
+                    </div>
+                    <div class="message-content">
+                        <h3>My Beautiful Love</h3>
+                        <p>Happy Birthday to the most amazing girlfriend in the world! You light up my life every single day with your smile, your love, and your beautiful heart. I love you more than words can express! ❤️</p>
+                    </div>
+                </div>
+                
+                <div class="message-card">
+                    <div class="message-icon">
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <div class="message-content">
+                        <h3>My Everything</h3>
+                        <p>You're not just my girlfriend, you're my best friend, and my soulmate. Thank you for being the incredible woman you are and for loving me unconditionally. You mean everything to me! ✨</p>
+                    </div>
+                </div>
+                
+                <div class="message-card">
+                    <div class="message-icon">
+                        <i class="fas fa-birthday-cake"></i>
+                    </div>
+                    <div class="message-content">
+                        <h3>Forever Together</h3>
+                        <p>Here's to another year of our beautiful love story! May this birthday bring you all the happiness, love, and dreams your heart desires. I can't wait to celebrate many more birthdays with you, my love! 🎂💕</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Interactive Elements -->
+        <section class="interactive">
+            <div class="birthday-cake">
+                <div class="cake" onclick="blowCandle()">
+                    <div class="candle">
+                        <div class="flame"></div>
+                    </div>
+                </div>
+                <p class="cake-text">Click the cake to blow out the candle! 🕯️</p>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer class="footer">
+            <p>Made with ❤️ for you Anjali ❤️</p>
+        </footer>
+    </div>
+
+    <!-- Photo Modal -->
+    <div id="photoModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <img id="modalImage" src="" alt="Birthday Photo">
+            <div class="modal-navigation">
+                <button id="prevBtn" class="nav-btn">❮</button>
+                <button id="nextBtn" class="nav-btn">❯</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

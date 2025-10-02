@@ -1,0 +1,13 @@
+{
+  "name": "birthday-web",
+  "version": "1.0.0",
+  "description": "A beautiful birthday website with photo gallery and messages",
+  "main": "index.html",
+  "scripts": {
+    "start": "python -m http.server 8000",
+    "dev": "python -m http.server 8000"
+  },
+  "keywords": ["birthday", "website", "gallery", "celebration"],
+  "author": "Your Name",
+  "license": "MIT"
+}
